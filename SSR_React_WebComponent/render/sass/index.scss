@@ -1,0 +1,158 @@
+$font-stack: Arial;
+$primary-color: #0f8ec7;
+$font-size: 16px;
+body {
+  background-color: $primary-color;
+  font-size: $font-size;
+  font-family: $font-stack;
+}
+a{
+	cursor: pointer;
+}
+ul, p {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+ul {
+  li {
+    list-style-type: none;
+    border: 0;
+  }
+
+  &.float {
+    display: table;
+    width: 100%;
+
+    li {
+      width: 50%;
+      padding: 3% 5% 3% 0;
+      display: table-cell;
+      vertical-align: middle;
+
+      a {
+        display: inline-block;
+      }
+
+      span {
+        display: block;
+      }
+    }
+  }
+
+  &.heading li {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #999;
+
+    &.left {
+      border-right: 1px solid #fff;
+      vertical-align: bottom;
+    }
+
+    &.selected {
+      background-color: #efefef;
+    }
+  }
+
+  &.datalist > li {
+    margin-left: 5%;
+    border-bottom: 1px solid #ccc;
+
+    &:lastchild {
+      border: 0px solid #ccc;
+    }
+  }
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+a.loadMore {
+  display: block;
+  padding: 4% 5% 4% 0;
+  text-align: center;
+  background: #fff;
+  color: $primary-color;
+}
+
+.font-size-8 {
+  font-size: 0.8rem;
+}
+
+.font-size-12 {
+  font-size: 1.2rem;
+}
+
+.padLft10 {
+  padding-left: 10%;
+}
+
+.padLft2 {
+  padding-left: 2%;
+}
+
+.padTop2 {
+  padding-top: 2%;
+}
+
+.padBtm2 {
+  padding-bottom: 2%;
+}
+
+.txtCenter{
+  text-align: center;
+}
+
+.zero {
+  color: #777;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.blue {
+  color: $primary-color;
+}
+
+i.arrow {
+  border: solid #0f8ec7;
+  border-width: 0 0.1rem 0.11rem 0;
+  display: inline-block;
+  padding: 0.2rem;
+  margin: 0.1em 0.5rem;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+drop-list{
+  display: inline-block;
+  padding: 5% 10%
+}
+
+.paginationContainer{
+
+}

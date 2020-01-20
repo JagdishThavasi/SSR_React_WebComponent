@@ -1,0 +1,126 @@
+<html>
+<head>
+<style>
+
+body{background-color: #0f8ec7; font-size: 16px; font-family: arial}
+ul, p {clear:both; padding: 0; margin: 0; background-color: #fff;}
+ul li {list-style-type: none; border: 0}
+ul.float {display: table; width:100%;}
+ul.float li {width: 50%; padding: 2% 5% 2% 0; display: table-cell; vertical-align: middle}
+ul.float li a{display: block; cursor: pointer}
+ul.float li span{display: block}
+ul.heading li{background-color: #f7f7f7; border-bottom: 1px solid #999}
+ul.heading li.left{ border-right: 1px solid #fff; vertical-align: bottom}
+ul.heading li.selected{background-color: #efefef}
+ul.datalist > li{ margin-left: 5%; border-bottom: 1px solid #ccc}
+ul.datalist > li:lastchild{ border: 0px solid #ccc}
+.container-fluid{
+  width: 100%;
+}
+a.loadMore{
+    display: block;
+    padding: 4% 5% 4% 0;
+    text-align: center;
+    background: #fff;
+    color: #0f8ec7;
+}
+.font-size-8{ font-size: 0.8em}
+.font-size-12{ font-size: 1.2em}
+.padLft10 {padding-left: 10%}
+.padLft2{padding-left: 2%}
+.padTop2{padding-top: 2%}
+.padBtm2{padding-bottom: 2%}
+
+.greyText{ color: #777}
+.left{text-align: left}
+.right{text-align: right}
+.positive {color: green}
+.negative {color: red}
+.blue {color: #1574b1;}
+
+
+i.arrow {
+  border: solid #0f8ec7;
+  border-width: 0 0.1em 0.11em 0;
+  display: inline-block;
+  padding: 0.2em;
+  margin: 0.1em 0.5em;
+}
+
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+  <section class="container-fluid">
+    <ul class="heading float">
+      <li class="left selected"><a class="padLft10 font-size-8"><span>Account<i class="arrow down"></i></span></a></li>
+      <li class="right padRght5"><a class="font-size-8"><span>Available Cash</span><span class="greyText">Today's Change</span></a></li>
+    </ul>
+    <ul class="datalist">
+      <li>
+        <ul class = "float">
+          <li class="left"><span class="font-size-12 blue"><strong>IRA - 5200</strong></span></li>
+          <li class="right padRght5">
+            <p><span>$5763.36</span><span class="positive font-size-8">-0.08% / $8,9169.90</span></p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class = "float">
+          <li class="left"><span class="font-size-12 blue"><strong>IRA - 5200</strong></span></li>
+          <li class="right padRght5">
+            <p><span>$5763.36</span><span class="negative font-size-8">-0.08% / $8,9169.90</span></p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class = "float">
+          <li class="left"><span class="font-size-12 blue"><strong>IRA - 5200</strong></span></li>
+          <li class="right padRght5">
+            <p><span>$5763.36</span><span class="positive font-size-8">-0.08% / $8,9169.90</span></p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class = "float">
+          <li class="left"><span class="font-size-12 blue"><strong>IRA - 5200</strong></span></li>
+          <li class="right padRght5">
+            <p><span>$5763.36</span><span class="negative font-size-8">-0.08% / $8,9169.90</span></p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class = "float">
+          <li class="left"><span class="font-size-12 blue"><strong>IRA - 5200</strong></span></li>
+          <li class="right padRght5">
+            <p><span>$5763.36</span><span class="positive font-size-8">-0.08% / $8,9169.90</span></p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class = "float">
+          <li class="left"><span class="font-size-12 blue"><strong>IRA - 5200</strong></span></li>
+          <li class="right padRght5">
+            <p><span>$5763.36</span><span class="negative font-size-8">-0.08% / $8,9169.90</span></p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <a class="loadMore"><span>Load More</span></a>
+  </section>
+</body>
+</html>
